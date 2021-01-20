@@ -1,0 +1,9 @@
+# Custom configuration
+configuration.py
+
+# Code not yet ready to be published
+logger.py
+massreplace.py
+
+# Byte-compiled stuff
+__pycache__/
