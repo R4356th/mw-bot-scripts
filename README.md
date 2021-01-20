@@ -3,7 +3,7 @@ A collection of scripts for R4356thBot
 
 # Usage
 
-Create configuration.py with the following content-
+Create configuration.py and add the following content-
 ```Python
 WIKI_PASSWORD = 'yourpasswordhere'
 WIKI_USERNAME = 'yourusernamehere'
