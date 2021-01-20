@@ -8,7 +8,7 @@ wiki.login(WIKI_USERNAME, WIKI_PASSWORD)
 print('Logged in.')
 
 # Take user input.
-cat = input('Category name (without "Category:")')
+cat = input('Category name (without "Category:"): ')
 strtoreplace = input('Text to replace: ')
 strtoreplacewith = input('Text to replace with: ')
 summ = input('Summary: ')
