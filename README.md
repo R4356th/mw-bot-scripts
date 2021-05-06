@@ -9,5 +9,6 @@ WIKI_PASSWORD = 'yourpasswordhere'
 WIKI_USERNAME = 'yourusernamehere'
 WIKI_API_URL = 'wikiapiurlhere'
 WIKI_USERAGENT = 'useragentnamehere'
+...other configuration go here
 ```
-. Now run ``python scriptname.py`` and follow the instructions.
+. Now run ``python <scriptname>.py`` and follow the instructions if there are any.
