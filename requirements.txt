@@ -1,1 +1,2 @@
 mw-api-client
+requests

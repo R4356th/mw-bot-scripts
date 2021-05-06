@@ -1,9 +1,10 @@
-# Custom configuration
+# Configuration
 configuration.py
 
 # Code not yet ready to be published
-logger.py
 massreplace.py
+mwd.py
+replace.py
 
 # Byte-compiled stuff
 __pycache__/
