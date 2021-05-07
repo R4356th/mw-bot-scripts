@@ -1,2 +1,2 @@
-mw-api-client
-requests
+mw-api-client==3.2.1
+requests==2.25.1
