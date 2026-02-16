@@ -5,7 +5,11 @@ from configuration import WIKI_API_URL, WIKI_PASSWORD, WIKI_USERNAME, WIKI_USERA
 # Log in.
 wiki = Wiki(WIKI_API_URL, WIKI_USERAGENT)
 wiki.login(WIKI_USERNAME, WIKI_PASSWORD)
-print('Logged in.')
+
+if wiki.meta.csrftoken == '+\\':
+    raise WikiError('Login failed. Please check your credentials.')
+else:
+    print('Logged in.')
 
 # Take user input.
 cat = input('Category name (without "Category:"): ')
